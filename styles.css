@@ -225,3 +225,4 @@ mark{background:linear-gradient(transparent 55%,var(--sun) 55%);color:inherit;pa
 .callout p{margin-bottom:14px}
 .guide-body .faq summary{line-height:1.35}
 .guide-body .faq details>p{margin:0}
+.sources{font-size:14px;color:var(--muted);margin-top:22px;padding-top:14px;border-top:1px solid #e3e9f1}
