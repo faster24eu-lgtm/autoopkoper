@@ -1,4 +1,4 @@
-// AutoOpkoper - two-step car form, photo preview, call/WhatsApp click events.
+// Auto Opkoper - two-step car form, photo preview, call/WhatsApp click events.
 (function () {
   var form = document.getElementById("bod");
   if (!form) return;
@@ -124,33 +124,6 @@
     btn.disabled = true;
     btn.textContent = "Bezig met versturen…";
   });
-
-  // Compact top bar: shown once the main form is scrolled past; it fills step 1 and jumps to step 2.
-  var bar = document.getElementById("quickbar");
-  if (bar && "IntersectionObserver" in window) {
-    var barInputs = bar.querySelectorAll("input,button");
-    new IntersectionObserver(function (entries) {
-      var show = !entries[0].isIntersecting && entries[0].boundingClientRect.top < 0;
-      bar.classList.toggle("show", show);
-      bar.setAttribute("aria-hidden", show ? "false" : "true");
-      barInputs.forEach(function (el) { el.tabIndex = show ? 0 : -1; });
-    }).observe(form);
-    var qPlate = document.getElementById("q-plate");
-    var qKm = document.getElementById("q-km");
-    qPlate.addEventListener("input", function () { qPlate.value = qPlate.value.toUpperCase().replace(/[^A-Z0-9-]/g, ""); });
-    qKm.addEventListener("input", function () {
-      var d = qKm.value.replace(/\D/g, "").slice(0, 7);
-      qKm.value = d ? Number(d).toLocaleString("nl-BE") : "";
-    });
-    document.getElementById("quickform").addEventListener("submit", function (e) {
-      e.preventDefault();
-      if (qPlate.value) plate.value = qPlate.value;
-      if (qKm.value) km.value = qKm.value;
-      showStep(1);
-      form.scrollIntoView({ behavior: "smooth", block: "start" });
-      if (plate.value && kmDigits() && validStep1()) showStep(2);
-    });
-  }
 
   // Every "back to the form" button: scroll up, preselect the condition from a tile, focus the plate.
   document.querySelectorAll("[data-goto-form]").forEach(function (a) {

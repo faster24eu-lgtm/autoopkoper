@@ -1,6 +1,6 @@
 # autoopkoper.com - auto opkoper België
 
-Static site (HTML/CSS/JS, no build step). Pages: `/`, `/bedankt/`, `/privacy/`.
+Static site (HTML/CSS/JS, no build step). Pages: `/`, `/bestelwagen-verkopen/`, `/bedankt/`, `/privacy/`.
 
 ## Before going live
 1. `bedankt/index.html`: add the Google Ads conversion label in the marked placeholder and uncomment it.
