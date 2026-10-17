@@ -122,7 +122,7 @@
     if (firstBad) { e.preventDefault(); firstBad.focus(); return; }
     var btn = document.getElementById("submit-btn");
     btn.disabled = true;
-    btn.textContent = "Bezig met versturen…";
+    btn.textContent = document.documentElement.lang.indexOf("fr") === 0 ? "Envoi en cours…" : "Bezig met versturen…";
   });
 
   // Every "back to the form" button: scroll up, preselect the condition from a tile, focus the plate.

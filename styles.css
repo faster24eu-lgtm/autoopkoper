@@ -178,7 +178,7 @@ mark{background:linear-gradient(transparent 55%,var(--sun) 55%);color:inherit;pa
 .site-footer a:hover{text-decoration:underline}
 .site-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 .foot-bottom{border-top:1px solid #23314a;padding-top:14px;font-size:13px}
-@media (min-width:800px){.site-footer .wrap{grid-template-columns:1.2fr 1fr 1fr}.foot-bottom{grid-column:1/-1}}
+@media (min-width:800px){.site-footer .wrap{grid-template-columns:1.2fr 1fr 1fr 1fr}.foot-bottom{grid-column:1/-1}}
 
 /* Sticky call bar (mobile) */
 .mobile-bar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;padding:8px 10px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid #e3e9f1;box-shadow:0 -4px 14px rgba(18,32,56,.08)}
