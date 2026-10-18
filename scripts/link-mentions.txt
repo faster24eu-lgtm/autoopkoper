@@ -3,6 +3,7 @@
 # optionally a third column with pages that must not link to the target (space-separated).
 # A place name right after a postcode ("1212 Brussel", an address) is never linked.
 # Order of lines = priority when a page reaches the per-page limit.
+/gids/wat-is-mijn-auto-waard/	wat je auto nog waard is|wat de auto nog waard is|wat de wagen daarna nog waard is
 /auto-verkopen-zonder-keuring/	zonder keuring|rode kaart|zonder geldige keuring
 /auto-verkopen-hoge-kilometerstand/	hoge kilometerstand|veel kilometers
 /auto-met-schade-verkopen/	auto met schade|met schade|schade
