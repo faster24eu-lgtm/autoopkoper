@@ -21,3 +21,6 @@ Landing pages share the homepage layout and form (each sets its own hidden `pagi
 6. GitHub Pages: the `CNAME` file holds autoopkoper.com.
 
 Paths are root-relative (`/styles.css`), so preview with a local server from this folder, e.g. `npx serve .`
+
+## Internal links (2026-10-19)
+`scripts/link-mentions.pl` turns words that are already in the text (e.g. "zonder keuring", "voor export", "papieren") into links to the matching page; phrases in `scripts/link-mentions.txt`. Rerunnable, never changes the visible text. Before: no page linked another page from its main text (only footer and home links). Search Console had 4 impressions (2026-10-14 to 16), too early for query-based changes; re-check in November.

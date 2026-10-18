@@ -1,0 +1,25 @@
+# Words that already appear in the body text and are turned into internal links (no text is added or changed).
+# Used by scripts/link-mentions.pl. Tab-separated: target, phrases in order of preference (separated by |),
+# optionally a third column with pages that must not link to the target (space-separated).
+# A place name right after a postcode ("1212 Brussel", an address) is never linked.
+# Order of lines = priority when a page reaches the per-page limit.
+/auto-verkopen-zonder-keuring/	zonder keuring|rode kaart|zonder geldige keuring
+/auto-verkopen-hoge-kilometerstand/	hoge kilometerstand|veel kilometers
+/auto-met-schade-verkopen/	auto met schade|met schade|schade
+/auto-verkopen-export/	voor export|export
+/gids/defecte-auto-verkopen/	defecte auto|motorschade|niet rijdend
+/gids/lez-auto-verkopen/	LEZ|lage-emissiezone
+/auto-verkopen-brussel/	in Brussel|Brussel	/gids/nummerplaat-schrappen/ /gids/papieren-auto-verkopen/
+/auto-verkopen-antwerpen/	in Antwerpen|Antwerpen
+/auto-verkopen-gent/	in Gent|Gent
+/auto-verkopen-leuven/	in Leuven|Leuven
+/auto-verkopen-limburg/	in Limburg|Limburg|Hasselt|Genk
+/bestelwagen-verkopen/	bestelwagen verkopen|bestelwagens|bestelwagen
+/gids/nummerplaat-schrappen/	nummerplaat schrappen|nummerplaat laten schrappen|plaat laten schrappen
+/gids/papieren-auto-verkopen/	welke papieren|papieren|inschrijvingsbewijs
+/gids/auto-verkopen-met-lening/	lopende lening|lening|leasing
+/gids/nieuwe-regels-autokeuring/	nieuwe regels|om de 2 jaar
+/bmw-verkopen/	BMW
+/mercedes-verkopen/	Mercedes
+/peugeot-verkopen/	Peugeot
+/volkswagen-verkopen/	Volkswagen
