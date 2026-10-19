@@ -5,7 +5,8 @@ Static site (HTML/CSS/JS, no build step).
 Pages:
 - `/` (NL) and `/fr/` (FR homepage, thank-you page `/fr/merci/`)
 - `/bestelwagen-verkopen/`, `/auto-verkopen-zonder-keuring/`, `/auto-met-schade-verkopen/`, `/auto-verkopen-hoge-kilometerstand/`, `/auto-verkopen-export/`
-- Cities: `/auto-verkopen-antwerpen/`, `-gent/`, `-brussel/`, `-leuven/`, `-limburg/`
+- Cities: `/auto-verkopen-antwerpen/`, `-gent/`, `-brussel/`, `-leuven/`, `-limburg/`, `-aalst/`, `-brugge/`, `-hasselt/`, `-kortrijk/`, `-mechelen/`, `-oostende/`, `-sint-niklaas/` (the last 7 built from the Gent page on 2026-10-19; Hasselt has its own page, Limburg covers the rest of the province)
+- `/autowrak-verkopen/` (wrecks: sell vs. scrap at an erkend demontagecentrum)
 - Brands: `/volkswagen-verkopen/`, `/bmw-verkopen/`, `/mercedes-verkopen/`, `/peugeot-verkopen/`
 - Guides under `/gids/`: papieren, nummerplaat schrappen, defecte auto, nieuwe keuringsregels, LEZ, verkopen met lening
 - `/bedankt/`, `/privacy/`
