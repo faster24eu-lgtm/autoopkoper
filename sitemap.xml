@@ -1,1 +1,1 @@
-$(cat /tmp/sitemap.xml)
+$(cat /tmp/sitemap-clean.xml)
