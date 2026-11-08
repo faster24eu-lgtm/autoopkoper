@@ -14,15 +14,7 @@
 /auto-verkopen-brussel/	in Brussel|Brussel	/gids/nummerplaat-schrappen/ /gids/papieren-auto-verkopen/
 /auto-verkopen-antwerpen/	in Antwerpen|Antwerpen
 /auto-verkopen-gent/	in Gent|Gent
-/auto-verkopen-leuven/	in Leuven|Leuven
-/auto-verkopen-hasselt/	in Hasselt|Hasselt
 /auto-verkopen-mechelen/	in Mechelen|Mechelen
-/auto-verkopen-aalst/	in Aalst|Aalst
-/auto-verkopen-sint-niklaas/	in Sint-Niklaas|Sint-Niklaas
-/auto-verkopen-brugge/	in Brugge|Brugge
-/auto-verkopen-kortrijk/	in Kortrijk|Kortrijk
-/auto-verkopen-oostende/	in Oostende|Oostende
-/auto-verkopen-limburg/	in Limburg|Limburg|Genk
 /bestelwagen-verkopen/	bestelwagen verkopen|bestelwagens|bestelwagen
 /gids/nummerplaat-schrappen/	nummerplaat schrappen|nummerplaat laten schrappen|plaat laten schrappen
 /gids/papieren-auto-verkopen/	welke papieren|papieren|inschrijvingsbewijs
