@@ -24,3 +24,5 @@
 /mercedes-verkopen/	Mercedes
 /peugeot-verkopen/	Peugeot
 /volkswagen-verkopen/	Volkswagen
+/auto-verkopen-aalst/	in Aalst|Aalst
+/auto-verkopen-sint-niklaas/	in Sint-Niklaas|Sint-Niklaas

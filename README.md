@@ -5,7 +5,9 @@ Static site (HTML/CSS/JS, no build step).
 Pages:
 - `/` (NL) and `/fr/` (FR homepage, thank-you page `/fr/merci/`)
 - `/bestelwagen-verkopen/`, `/auto-verkopen-zonder-keuring/`, `/auto-met-schade-verkopen/`, `/auto-verkopen-hoge-kilometerstand/`, `/auto-verkopen-export/`
-- Cities: `/auto-verkopen-antwerpen/`, `-brussel/`, `-gent/`, `-mechelen/`, plus `/werkgebied/` (all of Belgium). Since 2026-11-09 the former pages for Aalst, Brugge, Hasselt, Kortrijk, Leuven, Limburg, Oostende and Sint-Niklaas are redirect stubs to `/werkgebied/`: they were 74-86% identical text and the site's impressions collapsed from 29 Oct. Only add a city page back with real local content.
+- Cities: `/auto-verkopen-antwerpen/`, `-brussel/`, `-gent/`, `-mechelen/`, `-aalst/`, `-sint-niklaas/`, plus `/werkgebied/` (all of Belgium). Since 2026-11-09 the former pages for Brugge, Hasselt, Kortrijk, Leuven, Limburg and Oostende are redirect stubs to `/werkgebied/`: they were 74-86% identical text and the site's impressions collapsed from 29 Oct. Aalst and Sint-Niklaas were kept and each got an extra local section. Only add a city page back with real local content.
+- `/auto-verkopen-lez-antwerpen-gent/` (selling a car that may not enter the Antwerp/Ghent LEZ; overlaps with `/gids/lez-auto-verkopen/`, which stays the informational guide) and `/auto-verkopen-motorschade/` (overlaps with `/gids/defecte-auto-verkopen/` and `/auto-met-schade-verkopen/`). Watch Search Console for cannibalisation.
+- Copy says "met een takelwagen", never "eigen takelwagen": we don't own the trucks.
 - `/autowrak-verkopen/` (wrecks: sell vs. scrap at an erkend demontagecentrum)
 - Brands: `/volkswagen-verkopen/`, `/bmw-verkopen/`, `/mercedes-verkopen/`, `/peugeot-verkopen/`
 - Guides under `/gids/`: papieren, nummerplaat schrappen, defecte auto, nieuwe keuringsregels, LEZ, verkopen met lening
